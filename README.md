@@ -22,7 +22,7 @@
 # Запуск приложения
 ## - Через Xcode (Canvas)
 - Открыть файл .workspace (не .xcodeproj) для корректного отображения Pod'ов
-- Отобразить canvas через CoordinatorVieW
+- Отобразить canvas через CoordinatorView
 ## - Через Simulator
 
 # Screenshots:
