@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74C1B0342BD8E029002BBDAF /* NetworkSpeedTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C1B0332BD8E029002BBDAF /* NetworkSpeedTestApp.swift */; };
-		74C1B0362BD8E029002BBDAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C1B0352BD8E029002BBDAF /* ContentView.swift */; };
+		74C1B0342BD8E029002BBDAF /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C1B0332BD8E029002BBDAF /* App.swift */; };
+		74C1B0362BD8E029002BBDAF /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C1B0352BD8E029002BBDAF /* TestView.swift */; };
 		74C1B0382BD8E02B002BBDAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C1B0372BD8E02B002BBDAF /* Assets.xcassets */; };
 		74C1B03B2BD8E02B002BBDAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C1B03A2BD8E02B002BBDAF /* Preview Assets.xcassets */; };
+		74CEB0D02BD8E12F00E62E2F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CEB0CF2BD8E12F00E62E2F /* Coordinator.swift */; };
+		74CEB0D22BD8E15D00E62E2F /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CEB0D12BD8E15D00E62E2F /* CoordinatorView.swift */; };
+		74CEB0D42BD8E18700E62E2F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CEB0D32BD8E18700E62E2F /* SettingsView.swift */; };
+		74CEB0D62BD8E1B600E62E2F /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CEB0D52BD8E1B600E62E2F /* TabBarView.swift */; };
+		74CEB0D82BD8E1DA00E62E2F /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CEB0D72BD8E1DA00E62E2F /* AppViewModel.swift */; };
+		74CEB0DB2BD8E2F200E62E2F /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74CEB0D92BD8E2F200E62E2F /* DataModel.xcdatamodeld */; };
+		74CEB0DF2BD8FF1500E62E2F /* CoreDataObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CEB0DE2BD8FF1500E62E2F /* CoreDataObjects.swift */; };
+		74CEB0E22BD9005700E62E2F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CEB0E12BD9005700E62E2F /* DataManager.swift */; };
+		D915F442D7E1305E61C76B3B /* Pods_NetworkSpeedTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03033CEA45B5445BC2039B5D /* Pods_NetworkSpeedTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01351D2B828B2B232A874D19 /* Pods-NetworkSpeedTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkSpeedTest.release.xcconfig"; path = "Target Support Files/Pods-NetworkSpeedTest/Pods-NetworkSpeedTest.release.xcconfig"; sourceTree = "<group>"; };
+		03033CEA45B5445BC2039B5D /* Pods_NetworkSpeedTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkSpeedTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C1B0302BD8E029002BBDAF /* NetworkSpeedTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkSpeedTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		74C1B0332BD8E029002BBDAF /* NetworkSpeedTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSpeedTestApp.swift; sourceTree = "<group>"; };
-		74C1B0352BD8E029002BBDAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74C1B0332BD8E029002BBDAF /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		74C1B0352BD8E029002BBDAF /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		74C1B0372BD8E02B002BBDAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74C1B03A2BD8E02B002BBDAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74CEB0CF2BD8E12F00E62E2F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		74CEB0D12BD8E15D00E62E2F /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
+		74CEB0D32BD8E18700E62E2F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		74CEB0D52BD8E1B600E62E2F /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		74CEB0D72BD8E1DA00E62E2F /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		74CEB0DA2BD8E2F200E62E2F /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		74CEB0DE2BD8FF1500E62E2F /* CoreDataObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataObjects.swift; sourceTree = "<group>"; };
+		74CEB0E12BD9005700E62E2F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		B64CB022D12AE3B161D7817C /* Pods-NetworkSpeedTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkSpeedTest.debug.xcconfig"; path = "Target Support Files/Pods-NetworkSpeedTest/Pods-NetworkSpeedTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +46,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D915F442D7E1305E61C76B3B /* Pods_NetworkSpeedTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6DDFB42B98E63A959B97C32C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03033CEA45B5445BC2039B5D /* Pods_NetworkSpeedTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		74C1B0272BD8E029002BBDAF = {
 			isa = PBXGroup;
 			children = (
 				74C1B0322BD8E029002BBDAF /* NetworkSpeedTest */,
 				74C1B0312BD8E029002BBDAF /* Products */,
+				8CCC56860A1EBDC663EDF759 /* Pods */,
+				6DDFB42B98E63A959B97C32C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +82,14 @@
 		74C1B0322BD8E029002BBDAF /* NetworkSpeedTest */ = {
 			isa = PBXGroup;
 			children = (
-				74C1B0332BD8E029002BBDAF /* NetworkSpeedTestApp.swift */,
-				74C1B0352BD8E029002BBDAF /* ContentView.swift */,
-				74C1B0372BD8E02B002BBDAF /* Assets.xcassets */,
+				74C1B0332BD8E029002BBDAF /* App.swift */,
+				74CEB0D92BD8E2F200E62E2F /* DataModel.xcdatamodeld */,
+				74CEB0E32BD91A1900E62E2F /* Coordinator */,
+				74CEB0E42BD91A5C00E62E2F /* View */,
+				74CEB0E52BD91A8300E62E2F /* ViewModel */,
+				74CEB0E62BD91AFA00E62E2F /* DataManager */,
 				74C1B0392BD8E02B002BBDAF /* Preview Content */,
+				74C1B0372BD8E02B002BBDAF /* Assets.xcassets */,
 			);
 			path = NetworkSpeedTest;
 			sourceTree = "<group>";
@@ -67,6 +102,51 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		74CEB0E32BD91A1900E62E2F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				74CEB0D12BD8E15D00E62E2F /* CoordinatorView.swift */,
+				74CEB0CF2BD8E12F00E62E2F /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		74CEB0E42BD91A5C00E62E2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74C1B0352BD8E029002BBDAF /* TestView.swift */,
+				74CEB0D32BD8E18700E62E2F /* SettingsView.swift */,
+				74CEB0D52BD8E1B600E62E2F /* TabBarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		74CEB0E52BD91A8300E62E2F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				74CEB0D72BD8E1DA00E62E2F /* AppViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		74CEB0E62BD91AFA00E62E2F /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				74CEB0DE2BD8FF1500E62E2F /* CoreDataObjects.swift */,
+				74CEB0E12BD9005700E62E2F /* DataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		8CCC56860A1EBDC663EDF759 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B64CB022D12AE3B161D7817C /* Pods-NetworkSpeedTest.debug.xcconfig */,
+				01351D2B828B2B232A874D19 /* Pods-NetworkSpeedTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74C1B03E2BD8E02B002BBDAF /* Build configuration list for PBXNativeTarget "NetworkSpeedTest" */;
 			buildPhases = (
+				65AE0739C8380866A570CF8B /* [CP] Check Pods Manifest.lock */,
 				74C1B02C2BD8E029002BBDAF /* Sources */,
 				74C1B02D2BD8E029002BBDAF /* Frameworks */,
 				74C1B02E2BD8E029002BBDAF /* Resources */,
+				833A4ECCB0547D998D5F6159 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +214,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65AE0739C8380866A570CF8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetworkSpeedTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		833A4ECCB0547D998D5F6159 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetworkSpeedTest/Pods-NetworkSpeedTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetworkSpeedTest/Pods-NetworkSpeedTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetworkSpeedTest/Pods-NetworkSpeedTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		74C1B02C2BD8E029002BBDAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74C1B0362BD8E029002BBDAF /* ContentView.swift in Sources */,
-				74C1B0342BD8E029002BBDAF /* NetworkSpeedTestApp.swift in Sources */,
+				74CEB0D42BD8E18700E62E2F /* SettingsView.swift in Sources */,
+				74CEB0E22BD9005700E62E2F /* DataManager.swift in Sources */,
+				74CEB0DB2BD8E2F200E62E2F /* DataModel.xcdatamodeld in Sources */,
+				74C1B0362BD8E029002BBDAF /* TestView.swift in Sources */,
+				74CEB0D82BD8E1DA00E62E2F /* AppViewModel.swift in Sources */,
+				74C1B0342BD8E029002BBDAF /* App.swift in Sources */,
+				74CEB0DF2BD8FF1500E62E2F /* CoreDataObjects.swift in Sources */,
+				74CEB0D02BD8E12F00E62E2F /* Coordinator.swift in Sources */,
+				74CEB0D62BD8E1B600E62E2F /* TabBarView.swift in Sources */,
+				74CEB0D22BD8E15D00E62E2F /* CoordinatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +393,7 @@
 		};
 		74C1B03F2BD8E02B002BBDAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B64CB022D12AE3B161D7817C /* Pods-NetworkSpeedTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +423,7 @@
 		};
 		74C1B0402BD8E02B002BBDAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01351D2B828B2B232A874D19 /* Pods-NetworkSpeedTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -339,6 +473,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		74CEB0D92BD8E2F200E62E2F /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				74CEB0DA2BD8E2F200E62E2F /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 74CEB0DA2BD8E2F200E62E2F /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 74C1B0282BD8E029002BBDAF /* Project object */;
 }

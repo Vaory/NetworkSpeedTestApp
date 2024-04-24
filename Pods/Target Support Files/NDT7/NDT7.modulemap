@@ -1,0 +1,6 @@
+framework module NDT7 {
+  umbrella header "NDT7-umbrella.h"
+
+  export *
+  module * { export * }
+}
