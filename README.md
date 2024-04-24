@@ -1,20 +1,42 @@
-# AudioPlayer_App
+Тестовое Задание 
+# NetworkSpeedTest Application
+Приложение для замера скорости загрузки и отдачи интернет-соединения
 
-## A simple audio player with the following features:
-- Music playback
-- Ability to pause and repeat playback
-- Display of the track name and its duration (+ time until the end of the track)
-- Ability to arbitrarily set the desired time using the slider
-- Switch between tracks (back/forward)
+# Реализованные возможности:
+- Замер скорости загрузки и отдачи интернет-соединения
+- 2 экрана: тест скорости интернета и экран настроек
+- Замер проводиться по заданному пользователем URL-адресу
+- Возможность включать / отключать измерение загрузки и отдачи
+- Возможность менять тему оформления (системная, светлая, темная)
+- Навигация между экранами через Navigation Tab Bar (Coordinator)
 
-## Stack used:
+# Использованный стэк технологий:
+- Swift5, Xcode
 - SwiftUI
-- AVFoundation
-- Architecture: MVVM
-- Some combine features (@ObservableObjects/@Published)
-  
+- CocoaPods(side fraemwork NDT7) *Доработанный в приложении для измерения по любому URL и методами для отображения значений скорости
+- MVVM + Coordinator
+- CoreData (Если вы видите этот текст то на момент коммита функционал не доработан до конца т.к. не успеваю в сроки)
+
+** Alamofire не исользовал т.к использовал другое решение со сторонним фреймворком
+
+# Запуск приложения
+## - Через Xcode (Canvas)
+- Открыть файл .workspace (не .xcodeproj) для корректного отображения Pod'ов
+- Отобразить canvas через CoordinatorVieW
+## - Через Simulator
+
+# Screenshots:
+## Экраны приложения в светлой теме (до проведения теста, экран настроек, с проведенным тестом и отключенным замером отдачи)
+
 <p float="left">
-  <img src="/Audio_Player/GitSceenshots/Screenshot1.jpg" width="200" />
-  <img src="/Audio_Player/AudioPlayer_screenshots/Screenshot_2.jpg" width="200" /> 
-  <img src="/Audio_Player/AudioPlayer_screenshots/Screenshot_3.jpg" width="200" />
+  <img src="GitScreenshots/ScreenShot1.png" width="200" />
+  <img src="GitScreenshots/ScreenShot2.png" width="200" />
+  <img src="GitScreenshots/ScreenShot3.png" width="200" />
+</p>
+
+## Экраны приложения в темной теме (экран настроек и проведенным тестом)
+
+<p float="left">
+  <img src="GitScreenshots/ScreenShot4.png" width="200" />
+  <img src="GitScreenshots/ScreenShot5.png" width="200" />
 </p>
